@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-color:#8892d7 ;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
+}
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #000000;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(2, 23, 109, 0.3), 0 0 10px rgba(2, 23, 109, .2), 0 0 15px rgba(2, 23, 109, .1), 0 2px 0 black
+    
+}
+
+.user {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px
+}
+
+.loginBox h3 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 0 20px;
+    color: #0940a6;
+    text-align: center
+}
+
+label{
+    color:rgb(197, 196, 196)
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.loginBox input[type="email"],
+.loginBox input[type="password"],
+.loginBox input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.loginBox input[type="email"]:hover,
+.loginBox input[type="password"]:hover,
+.loginBox input[type="text"]:hover {
+    color: #42F3FA;
+    border: 1px solid #42F3FA;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.loginBox input[type="email"]:focus,
+.loginBox input[type="password"]:focus,
+.loginBox input[type="text"]:focus {
+    border-bottom: 2px solid #42F3FA
+}
+
+.inputBox {
+    position: relative
+}
+
+.inputBox span {
+    position: absolute;
+    top: 10px;
+    color: #262626
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #0940a6;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 17rem;
+}
+.register{
+    color: rgba(255, 255, 255, 0.704);
+}

@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    html,
+    body {
+      font-family: 'Arial', sans-serif;
+      text-decoration: none;
+      font-size: 63.5%;
+    }
+    nav{
+      height: 10vh;
+      width: 100vw;
+      background-color: #000000;
+      color: white;
+      padding: 0rem 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    h1{
+      font-size: 4.2rem;
+    }
+    li{
+      font-size: 1.6rem;
+    }
+    .home a{
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+      
+    }
+    .show-menu {
+      cursor: pointer;
+    }
+    
+    input.checkbox-menu[type="checkbox"] {
+      display: none;
+      -webkit-appearance: none;
+    }
+    
+    input.checkbox-menu[type="checkbox"]:checked ~ div.menu-block {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .nav-icon {
+      margin: 1rem;
+      /* background-color: #ffff; */
+      display: inline-block;
+      font-size: 4em;
+      padding: 0.5em;
+      vertical-align: middle;
+    }
+    .nav-icon >i{
+      color: white;
+    }
+    
+    .menu-block {
+      display: inline-block;
+      opacity: 0;
+      vertical-align: middle;
+      visibility: hidden;
+      -webkit-transition: all 0.25s;
+      -moz-transition: all 0.25s;
+      -ms-transition: all 0.25s;
+      -o-transition: all 0.25s;
+      transition: all 0.25s;
+    }
+    
+    ul.navUL {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul.navUL li {
+      display: inline-block;
+      padding: 0px 5px;
+    }
+    
+    ul.navUL li a {
+      color: #999999;
+      display: block;
+      padding: 3px;
+      text-decoration: none;
+    }
+    
+    ul.navUL li a:hover {
+      color: #ffff;
+      text-decoration: none;
+    }
+    .container{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .container >.your-todo{ 
+      width: 100%;
+      height: 12vh;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .no-todo{
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .get-todo{
+      margin: 1rem;
+    }
+    .addTodoFrm{
+      height: 50vh;
+      width: 50%;
+      border-radius: 10px;
+      padding: 3rem;
+      color: white;
+      font-size: 1.6rem;
+      background-color: #000000;
+    }
+    .addTodoFrm label{
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .form-group{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      height: 16vh;
+    }
+    .form-btn{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .form-btn button{
+      background-color: #ffff00d8;
+      font-size: 1.8rem;
+      color: #000000;
+      margin: 2rem;
+      width: 70%;
+      height: 5vh;
+      border: none;
+      border-radius: 10px;
+    
+    }
+    input[type="text"],textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    }
+    input[type="text"]{
+    height: 5vh;
+    }
+    textarea{
+      width: 70%;
+    }
+    .alert{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    
+      border-radius: 10px;
+      background-color: #cafbb8;
+      height: 5vh;
+      width: 50%;
+      color: #000000;
+      position: absolute;
+      bottom: 3rem;
+      left: 35rem;
+     
+    }
+    .alert-2{
+      background-color: #f6c5c5;
+    
+    }
+    .msg{
+      text-align: center;
+    }
+    .row{
+      margin-top: 10%;
+    }
+    .todo-view{
+      border-radius: 10px;
+      padding: 3rem;
+      color: white;
+      font-size: 1.8rem;
+      background-color: #000000;
+    }
+    .link-view{
+      margin-top: 1rem;
+    }
+    .link-view a ,.viewdef{
+      text-decoration: none;
+      color: #ffff00d8;
+      margin: 0rem 3rem 0rem 0rem;
+    }
